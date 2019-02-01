@@ -195,7 +195,7 @@ class Webform {
     $query->addField('wc', 'cid');
     $query->addField('wc', 'form_key');
     $query->addField('wc', 'name');
-    $query->addField('wc', 'required');
+    $query->addField('wc', 'mandatory');
     $query->addField('wc', 'type');
     $query->addField('wc', 'extra');
     $query->condition('nid', $this->getNid(), '=');
